@@ -67,7 +67,19 @@ createApp({
        
     },
     methods:{
-        
+        addTodo(){
+            this.lastId++;
+            const newTodo = {
+                text: this.todoText,
+                done: false,
+                id: this.lastId,
+            }
+            this.todos.unshift(newTodo);
+            this.todoText = '';
+        },
+        removeTodo(){
+
+        }
     }
 
 

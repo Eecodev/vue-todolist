@@ -16,8 +16,8 @@
             </header>
             <main>
                 <ul class="list-group">
-                    <li class="list-group-item list-group-item-action d-flex justify-content-between" v-for="(todo, index)in todos" :key="todos.id">
-                        <span :class="{'done': todos.done}">{{todos.text}}</span>
+                    <li class="list-group-item list-group-item-action d-flex justify-content-between" v-for="(todo, index) in todos" :key="todo.id">
+                        <span :class="{'done': todo.done}" @click="todo.done = !todo.done">{{todo.text}}</span>
                         <i class="fa-solid fa-trash"></i>
                     </li>
                 </ul>
