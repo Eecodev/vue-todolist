@@ -39,7 +39,7 @@ const {createApp} = Vue;
 createApp({
     data(){
         return{
-            todo: [
+            todos: [
                 {
                     text: 'Select playwrights for next show',
                     done: true,
