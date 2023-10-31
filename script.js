@@ -77,8 +77,8 @@ createApp({
             this.todos.unshift(newTodo);
             this.todoText = '';
         },
-        removeTodo(){
-
+        removeTodo(i){
+            this.todos.splice(i,1);
         }
     }
 
