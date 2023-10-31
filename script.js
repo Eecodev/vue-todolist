@@ -62,12 +62,12 @@ createApp({
                 }
             ],
             lastId: 4,
-            // todoText: ''
+            todoText: ''
         }
        
     },
     methods:{
-
+        
     }
 
 

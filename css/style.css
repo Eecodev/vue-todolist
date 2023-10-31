@@ -1,9 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(178, 148, 185);
+    background-color: rgb(71, 7, 248);
 }
 
 header img{
     width: 800px;
     border: 2px solid white;
+}
+.done{
+    text-decoration: line-through;
 }
